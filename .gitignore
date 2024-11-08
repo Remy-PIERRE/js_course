@@ -25,4 +25,4 @@ serviceAccountKey.json
 *.sln
 *.sw?
 
-test
+test.*
