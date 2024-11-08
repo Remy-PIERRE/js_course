@@ -27,6 +27,68 @@ const pi = 3.14159;
 var nom = "Alice";
 ```
 
+## Les opérateurs en programmation
+
+Les opérateurs en programmation sont des symboles permettant d’effectuer des opérations sur des valeurs ou des variables. Ils peuvent être classés en différentes catégories en fonction de leur fonction et de l’opération qu'ils réalisent.
+
+### Opérateurs de calcul
+
+Les opérateurs de calcul sont utilisés pour modifier la valeur d'une variable à l’aide d’opérations mathématiques de base.
+
+| Symbole | Description                 |
+| ------- | --------------------------- |
+| `+`     | Opérateur d'addition        |
+| `-`     | Opérateur de soustraction   |
+| `*`     | Opérateur de multiplication |
+| `/`     | Opérateur de division       |
+| `%`     | Opérateur modulo            |
+
+### Opérateurs d'affectation
+
+Les opérateurs d'affectation permettent d'attribuer des valeurs à des variables. Ces opérateurs utilisent une expression à droite et appliquent l’opération correspondante avant de stocker le résultat dans la variable située à gauche.
+
+| Symbole | Description                   |
+| ------- | ----------------------------- |
+| `=`     | Affectation simple            |
+| `+=`    | Addition et affectation       |
+| `-=`    | Soustraction et affectation   |
+| `*=`    | Multiplication et affectation |
+| `/=`    | Division et affectation       |
+
+### Opérateurs d'incrémentation et de décrémentation
+
+Les opérateurs d'incrémentation et de décrémentation permettent de modifier la valeur d’une variable de manière incrémentale, généralement en l'augmentant ou en la diminuant d'une unité.
+
+| Symbole | Description                                       |
+| ------- | ------------------------------------------------- |
+| `++`    | Incrémentation de la variable (augmentation de 1) |
+| `--`    | Décrémentation de la variable (diminution de 1)   |
+
+### Opérateurs de comparaison
+
+Les opérateurs de comparaison sont utilisés pour comparer deux valeurs entre elles et retourner un résultat booléen (vrai ou faux). Ils sont essentiels pour les conditions et les structures de contrôle de flux.
+
+| Symbole | Description                          |
+| ------- | ------------------------------------ |
+| `==`    | Opérateur d'égalité                  |
+| `===`   | Opérateur d'identité                 |
+| `!=`    | Opérateur de différence              |
+| `!==`   | Opérateur de non-identité            |
+| `<`     | Opérateur d'infériorité stricte      |
+| `<=`    | Opérateur d'infériorité non stricte  |
+| `>`     | Opérateur de supériorité stricte     |
+| `>=`    | Opérateur de supériorité non stricte |
+
+### Opérateurs logiques
+
+Les opérateurs logiques sont utilisés pour combiner des expressions booléennes ou pour inverser leur valeur. Ils permettent de vérifier la validité de plusieurs conditions en même temps.
+
+| Symbole | Description             |
+| ------- | ----------------------- |
+| `\|\|`  | Opérateur logique "OU"  |
+| `&&`    | Opérateur logique "ET"  |
+| `!`     | Opérateur logique "NON" |
+
 ## Structures de contrôle
 
 Les structures de contrôle (ou structures conditionnelles) sont des blocs qui permettent de tester des conditions et de diriger l'exécution du programme en fonction du résultat de ces tests.
@@ -65,7 +127,7 @@ else {
 }
 ```
 
-### opérateur ternaire
+### Opérateur ternaire
 
 L'opérateur ternaire est une version abrégée de la structure if...else. Il est souvent utilisé pour retourner une valeur booléenne ou pour effectuer des affectations conditionnelles simples.
 

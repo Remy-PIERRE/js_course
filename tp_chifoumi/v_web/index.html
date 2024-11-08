@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chifoumi</title>
+    <meta name="description" content="Le jeu du Chifoumi !" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <p>Tour : <span id="turn"></span></p>
+      <div class="scoring">
+        <p>Joueur : <span id="scoringPlayer"></span></p>
+        <p>Ordinateur : <span id="scoringCom"></span></p>
+      </div>
+    </header>
+
+    <section class="actions">
+      <button id="buttonPierre">Pierre</button>
+      <button id="buttonFeuille">Feuille</button>
+      <button id="buttonCiseaux">Ciseaux</button>
+    </section>
+
+    <section class="choices">
+      <h1>Choix :</h1>
+      <div class="content">
+        <p>Joueur : <span id="choicePlayer"></span></p>
+        <p>Ordinateur : <span id="choiceCom"></span></p>
+      </div>
+    </section>
+  </body>
+
+  <script src="./chifoumi.js"></script>
+</html>

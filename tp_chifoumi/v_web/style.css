@@ -1,0 +1,84 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  margin-bottom: 40px;
+  padding: 12px 40px;
+  background: #3f6212;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scoring {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.actions {
+  padding-left: 40px;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.actions button {
+  width: 150px;
+  height: 40px;
+  border: 2px outset #333;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.choices {
+  padding-left: 40px;
+}
+
+.choices h1 {
+  margin-bottom: 28px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

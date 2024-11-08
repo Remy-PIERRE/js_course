@@ -2,7 +2,7 @@
 
 ## Présentation
 
-JavaScript est un langage de programmation principalement utilisé pour créer des interactions dynamiques sur des pages web. Il est exécuté côté client (dans le navigateur web), mais peut également être utilisé côté serveur grâce à des environnements d'exécution tels que Node.js.
+JavaScript est un langage de programmation principalement utilisé pour créer des interactions dynamiques sur des pages web. Il est exécuté côté client (dans le navigateur web), mais peut également être utilisé côté serveur grâce à Node.js.
 
 Développé en 1995 par Brendan Eich sous le nom de "LiveScript", JavaScript est rapidement devenu un standard incontournable dans le domaine du développement web. Le nom "JavaScript" a été choisi pour des raisons marketing, afin de capitaliser sur la popularité du langage Java. Toutefois, ces deux langages partagent peu de similarités et ne doivent pas être confondus.
 
