@@ -25,4 +25,5 @@ serviceAccountKey.json
 *.sln
 *.sw?
 
-test.*
+test.js
+test.html
