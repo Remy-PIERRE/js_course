@@ -214,7 +214,8 @@ const personne = {
 - Accéder aux propriétés d'un objet :
 
 ```js
-// affiche "John" // // Affiche "Alice"
+// affiche "John" //
+console.log(personne.nom);
 // affiche 18 //
 console.log(personne["age"]);
 ```
@@ -268,7 +269,7 @@ map.delete("b");
 console.log(map.size);
 ```
 
-[Documentation](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Map)
+[Documentation sur Map](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Map)
 
 - <code>Set</code> :
   Un Set est une collection d'éléments uniques, sans ordre particulier. Il ne permet pas de duplications.
@@ -290,3 +291,5 @@ console.log(set.has(40));
 // supprime 20 //
 set.delete(20);
 ```
+
+[Documentation sur Set](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Set)
