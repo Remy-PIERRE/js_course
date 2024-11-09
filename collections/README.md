@@ -72,20 +72,25 @@ console.log(tableau);
 - Supprimer des éléments dans un tableau
   - <code>pop()</code> : Supprime le dernier élément du tableau.
   - <code>shift()</code> : Supprime le premier élément du tableau.
+  - <code>slice()</code> : Permet d'extraire une portion d'un tableau sans modifier le tableau d'origine.
   - <code>splice()</code> : Permet de supprimer, ajouter ou remplacer des éléments à une position spécifique.
 
 ```js
 const tableau = ["joujou", "hibou", "caillou", "jenou"];
 
-// affiche ["joujoux", "hiboux", "caillou"] //
+// affiche ["joujou", "hibou", "caillou"] //
 tableau.pop();
 console.log(tableau);
 
-// affiche ["hiboux", "caillou"] //
+// affiche ["hibou", "caillou"] //
+const nouveauTableau = tableau.slice(1, 3);
+console.log(nouveauTableau);
+
+// affiche ["hibou", "caillou"] //
 tableau.shift();
 console.log(tableau);
 
-// affiche ["hiboux", "chou", "caillou"] //
+// affiche ["hibou", "chou", "caillou"] //
 tableau.splice(1, 0, "chou");
 console.log(tableau);
 ```
