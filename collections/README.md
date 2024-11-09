@@ -38,13 +38,13 @@ console.log(tableau[0]);
 console.log(tableau[1]);
 ```
 
-- Modifications d'un élément:
+- Modifications d'un élément :
   Vous pouvez modifier un élément du tableau en utilisant son index.
 
 ```js
 const tableau = [10, 20, 30];
 
-// je change le valeur de l'élément en deuxième position à 40 //
+// je change la valeur de l'élément en deuxième position à 40 //
 tableau[1] = 40;
 
 // affiche [10, 40, 30] //
@@ -179,7 +179,7 @@ array.reduce(function (accumulateur, valeurActuelle, index) {
 
     - accumulateur : la valeur accumulée retournée à chaque itération
     - valeurActuelle : l'élément actuel du tableau
-    - index : l'index de l'élément actuelle (optionnel)
+    - index : l'index de l'élément actuel (optionnel)
     - valeurInitiale : la valeur initiale de l'accumulateur (optionnel)
 
 ```js
@@ -227,7 +227,7 @@ console.log(personne["age"]);
 ```js
 // j'ajoute une nouvelle propriété //
 personne.profession = "Développeur";
-// je modifie l'age de ma personne //
+// je modifie l'âge de ma personne //
 personne.age = 19;
 ```
 
