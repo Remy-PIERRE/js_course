@@ -24,7 +24,7 @@ const pi = 3.14159;
 
 ```js
 // on pourra trouver var dans du code "ancien" //
-var nom = "Alice";
+var nom = "John";
 ```
 
 ## Les opérateurs en programmation
@@ -98,7 +98,7 @@ Les structures de contrôle (ou structures conditionnelles) sont des blocs qui p
 Cette structure permet de tester une condition avant d'exécuter un bloc de code. Si la condition est vraie, le premier bloc de code est exécuté, sinon, le deuxième bloc de code (celui du else) est exécuté.
 
 ```js
-let age = 25;
+const age = 25;
 
 // si j'ai plus de 18 ans ou 18 juste //
 if (age >= 18) {
@@ -111,7 +111,7 @@ else {
 ```
 
 ```js
-let note = 13;
+const note = 13;
 
 // si ma note est supérieure ou égale à 15 //
 if (note >= 15) {
@@ -136,8 +136,8 @@ condition ? valeur_si_vrai : valeur_si_faux;
 ```
 
 ```js
-let age = 25;
-let statut = age >= 18 ? "Vous êtes majeur." : "Vous êtes mineur.";
+const age = 25;
+const statut = age >= 18 ? "Vous êtes majeur." : "Vous êtes mineur.";
 ```
 
 ### switch ... case
@@ -145,7 +145,7 @@ let statut = age >= 18 ? "Vous êtes majeur." : "Vous êtes mineur.";
 La structure switch permet de tester plusieurs cas possibles pour une même variable. C’est une alternative plus claire et plus concise à une série de if...else if imbriqués.
 
 ```js
-let jour = 3;
+const jour = 3;
 
 // on test la valeur de "jour" //
 switch (jour) {

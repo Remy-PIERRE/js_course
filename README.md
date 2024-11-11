@@ -31,3 +31,11 @@ JavaScript repose sur un modèle de programmation asynchrone, qui permet de gér
 - Basé sur les objets
 
 JavaScript est un langage orienté objet. Tous les types natifs (tels que String, Array, etc.) sont considérés comme des objets, ce qui permet d'appliquer des principes de la programmation orientée objet dans la conception du code.
+
+## Plan de cours
+
+1 - [Sytaxe de base](./1_syntaxe_de_base/README.md)
+2 - [Manipulation du DOM](./2_1_manipulation_du_dom/README.md)
+3 - [Templates](./2_2_templates/README.md)
+4 - [Collections](./3_1_collections/README.md)
+5 - [Stocker des informations](./3_2_stocker_des_informations/README.md)
