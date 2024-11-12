@@ -156,8 +156,9 @@ somme(1, 4, 5);
 
 function factorielle(number) {
   let result = 1;
+
   for (let index = 1; index <= number; index++) {
-    result *= index;
+    result = result * index;
   }
 
   return result;
@@ -172,3 +173,23 @@ function majorite(age) {
 }
 
 majorite(16);
+
+// FIZZBUZZ //
+
+for (let index = 1; index <= 100; index++) {
+  let answer = "";
+
+  if (index % 3 === 0) {
+    answer += "Fizz";
+  }
+
+  if (index % 5 === 0) {
+    answer += "Buzz";
+  }
+
+  if (answer === "") {
+    answer = index;
+  }
+
+  console.log(answer);
+}
