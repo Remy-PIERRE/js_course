@@ -1,5 +1,3 @@
-console.log("Bonjour panier de fruits !");
-
 // je séléctionne mon bouton et écoute l'évenement "click" //
 document
   .querySelector("#buttonAddFruits")
@@ -30,21 +28,21 @@ function createTableRow(fruit) {
   const cellFruit = document.createElement("td");
   cellFruit.innerText = capitalizeFirstLetter(fruit);
 
-  // création de la seconde balise cell et ajoute de son contenue avec innerHTML //
+  // création de la seconde balise cell et ajout de son contenue avec innerHTML //
   const cellButton = document.createElement("td");
-  cellButton.innerHTML = `
-      <button class="btn btn-danger">
-          <i class="fa fa-trash"></i>
-      </button>
-    `;
+  // cellButton.innerHTML = `
+  //     <button class="btn btn-danger">
+  //         <i class="fa fa-trash"></i>
+  //     </button>
+  //   `;
 
-  // création de la seconde balise cell et ajoute de son contenue sans innerHTML //
-  //   const button = document.createElement("button");
-  //   button.className = "btn btn-danger";
-  //   const icon = document.createElement("i");
-  //   icon.className = "fa fa-trash";
-  //   button.appendChild(icon);
-  //   cellButton.appendChild(button);
+  // création de la seconde balise cell et ajout de son contenue sans innerHTML //
+  const button = document.createElement("button");
+  button.className = "btn btn-danger";
+  const icon = document.createElement("i");
+  icon.className = "fa fa-trash";
+  button.appendChild(icon);
+  cellButton.appendChild(button);
 
   // intégrations des cells dans la row //
   row.appendChild(cellFruit);
