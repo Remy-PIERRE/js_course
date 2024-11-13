@@ -24,15 +24,15 @@ e - Trouver l'index d'un élément
 
 ## Les Boucles avec les Arrays
 
-a - Parcourir un tableau avec
+a - Parcourir un tableau
 
 - Utilisez une boucle for pour afficher chaque élément du tableau de l'exercice précédent.
-- Utilisez une boucle for in pour afficher chaque élément du tableau de l'exercice précédent.
+- Utilisez une boucle for of pour afficher chaque élément du tableau de l'exercice précédent.
 - Utilisez une boucle foreach pour afficher chaque élément du tableau de l'exercice précédent.
 
-b - Somme des éléments d'un tableau avec for
+b - Somme des éléments d'un tableau
 
-- Créez une boucle for pour calculer la somme des nombres dans ce tableau.
+- Créez une boucle pour calculer la somme des nombres dans ce tableau.
 
 c - Afficher l'index des éléments qui satisfont une condition
 
