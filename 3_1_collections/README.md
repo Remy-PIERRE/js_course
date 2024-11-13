@@ -108,7 +108,7 @@ for (let index = 0; index < tableau.length; index++) {
 }
 ```
 
-- Boucle for ... in :
+- Boucle for ... of :
   Cette boucle permet de parcourir le tableau sans utiliser l'index.
 
 ```js
