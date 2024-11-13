@@ -112,6 +112,8 @@ console.log(`Le tableau ne comportant que des paires : ${pairs}`);
 
 // d //
 
+const tableau = [0, 20, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+
 const resultat = tableau.map((element) => {
   let value = "";
 
