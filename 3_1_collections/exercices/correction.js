@@ -50,7 +50,7 @@ tableau.forEach((element, i) => {
   }
 });
 
-console.log(`l'index de l'élément ayat une valeur de 5 est : ${index}`);
+console.log(`L'index de l'élément ayant une valeur de 5 est : ${index}`);
 
 // LES BOUCLES //
 
@@ -95,6 +95,7 @@ const tableau = [0, 20, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 // a //
 
 const nouveauTableau = tableau.map((element) => element * 2);
+
 console.log(`Mon nouveau tableau : ${nouveauTableau}`);
 
 // b //
@@ -111,7 +112,7 @@ console.log(`Le tableau ne comportant que des paires : ${pairs}`);
 
 // d //
 
-const result = tableau.map((element) => {
+const resultat = tableau.map((element) => {
   let value = "";
 
   if (element % 3 === 0) value += "Fizz";
@@ -121,4 +122,4 @@ const result = tableau.map((element) => {
   return value;
 });
 
-console.log(result);
+console.log(resultat);
