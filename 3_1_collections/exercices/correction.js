@@ -11,7 +11,7 @@ for (let index = 1; index <= 10; index++) {
 
 const dernierTableau = Array(10)
   .fill()
-  .map((_, index) => index + 1);
+  .map((element, index) => index + 1);
 
 console.log(`Mon tableau : ${tableau}`);
 console.log(`Mon autre tableau : ${autreTableau}`);
