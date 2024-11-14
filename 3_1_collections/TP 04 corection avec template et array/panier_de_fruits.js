@@ -19,9 +19,11 @@
 //        j'écoute l'évenement "click" du bouton "supprimer" //
 
 // j'initialise ma collection de fruits //
-const fruits = [];
+const data = JSON.parse(window.localStorage.getItem("fruits"));
+
+const fruits = data || [];
 // const fruits = ["banane", "fraise"];
-// updateFruits();
+updateFruits();
 
 // j'écoute l'évenement "click" sur le bouton "ajouter" //
 document
@@ -58,6 +60,7 @@ function handleRemoveFruit(event) {
 function addFruit(value) {
   fruits.push(value);
 
+  storeData();
   updateFruits();
 }
 
@@ -66,6 +69,7 @@ function deleteFruit(value) {
   const index = fruits.indexOf(value);
   fruits.splice(index, 1);
 
+  storeData();
   updateFruits();
 }
 
@@ -93,4 +97,8 @@ function updateFruits() {
 
     document.querySelector("tbody").appendChild(clone);
   }
+}
+
+function storeData() {
+  window.localStorage.setItem("fruits", JSON.stringify(fruits));
 }

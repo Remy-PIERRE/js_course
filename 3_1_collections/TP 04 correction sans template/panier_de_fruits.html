@@ -57,34 +57,7 @@
             </tr>
           </thead>
           <!-- tbody>tr>td*2 -->
-          <tbody id="tableFruitsBody">
-            <tr>
-              <td>pomme</td>
-              <td>
-                <button class="btn btn-danger">
-                  <i class="fa fa-trash"></i>
-                </button>
-              </td>
-            </tr>
-
-            <tr>
-              <td>poire</td>
-              <td>
-                <button class="btn btn-danger">
-                  <i class="fa fa-trash"></i>
-                </button>
-              </td>
-            </tr>
-
-            <tr>
-              <td>cerise</td>
-              <td>
-                <button class="btn btn-danger">
-                  <i class="fa fa-trash"></i>
-                </button>
-              </td>
-            </tr>
-          </tbody>
+          <tbody id="tableFruitsBody"></tbody>
         </table>
       </div>
     </div>
@@ -93,6 +66,17 @@
         <p class="m-0 text-center text-white">Copyright &copy;IMC 2023</p>
       </div>
     </footer>
+
+    <template id="templateFruit">
+      <tr>
+        <td>Fruit :</td>
+        <td>
+          <button class="btn btn-danger">
+            <i class="fa fa-trash"></i>
+          </button>
+        </td>
+      </tr>
+    </template>
   </body>
 
   <script src="./panier_de_fruits.js"></script>
